@@ -418,4 +418,12 @@ body {
     .game-section, .social-section { padding: 10px 10px 0 10px; }
     .section-header { font-size: 0.6rem; gap: 8px; }
     .divider { margin: 10px 0 15px 0; gap: 12px; }
+}/* ---------- REMOVE DEFAULT BLUE CLICK EFFECT ---------- */
+.btn:focus, .btn:active,
+.copy-btn:focus, .copy-btn:active,
+.btn-music:focus, .btn-music:active,
+button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+    -webkit-tap-highlight-color: transparent; /* mobile ke liye */
 }
