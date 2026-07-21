@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>👑 GOD AMAN 202</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Nebula Blobs -->
+    <div class="nebula nebula-1"></div>
+    <div class="nebula nebula-2"></div>
+
+    <!-- Particle Canvas (Background) -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Main Card -->
+    <div class="card">
+
+        <div class="god-badge">👑 THE ONE AND ONLY</div>
+
+        <div class="glitch-wrapper">
+            <h1 class="main-title" data-text="GOD AMAN 202">
+                GOD<br>AMAN <span class="highlight">202</span>
+            </h1>
+        </div>
+
+        <div class="tagline">
+            ⚡ <span>GAMER</span> // <span>CODER</span> ⚡
+        </div>
+
+        <!-- ====================== -->
+        <!-- 🎮 GAME SECTION (Alag) -->
+        <!-- ====================== -->
+        <div class="section game-section">
+            <div class="section-header">
+                <i class="fas fa-gamepad"></i>
+                <span class="section-title">GAME PROFILE</span>
+            </div>
+            <div class="game-id-container">
+                <div class="game-id-label">🔥 FREE FIRE UID</div>
+                <div class="game-id-box">
+                    <span id="gameUid">6639273927</span>
+                    <button onclick="copyUid()" class="copy-btn" title="Copy UID">
+                        <i class="fas fa-copy"></i>
+                    </button>
+                </div>
+                <div id="copyMessage" class="copy-message">✅ Copied!</div>
+            </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="divider">
+            <span class="divider-line"></span>
+            <span class="divider-icon">✦</span>
+            <span class="divider-line"></span>
+        </div>
+
+        <!-- ======================== -->
+        <!-- 🌐 SOCIAL SECTION (Alag) -->
+        <!-- ======================== -->
+        <div class="section social-section">
+            <div class="section-header">
+                <i class="fas fa-globe"></i>
+                <span class="section-title">SOCIAL HUB</span>
+            </div>
+            <div class="links">
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/god_aman_202" class="btn btn-instagram" target="_blank">
+                    <i class="fab fa-instagram"></i> INSTAGRAM
+                </a>
+                <!-- Discord -->
+                <a href="https://discord.com/users/1328667443836747871" class="btn btn-discord" target="_blank">
+                    <i class="fab fa-discord"></i> DISCORD
+                </a>
+                
+                <!-- ================================================== -->
+                <!-- 🎵 YAHAN PE YOUTUBE HATA KAR MUSIC BUTTON LAGAYA HAI -->
+                <!-- ================================================== -->
+                <button id="musicBtn" class="btn btn-music" onclick="toggleMusic()">
+                    <i id="musicIcon" class="fas fa-play"></i> MUSIC
+                </button>
+
+                <!-- Email (Mailto issue fixed with fallback) -->
+                <a href="mailto:AMANKMR62017@GMAIL.COM" class="btn btn-email" id="emailBtn">
+                    <i class="fas fa-envelope"></i> Email Me
+                </a>
+            </div>
+        </div>
+
+        <div class="footer">✦ IN GOD WE TRUST ✦</div>
+    </div>
+
+    <!-- Hidden Audio Element -->
+    <audio id="bgMusic" src="https://www.image2url.com/r2/default/files/1784647728541-285e779c-8777-4f31-b1f0-f10311ffde5c.m4a"></audio>
+
+    <!-- Link to External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
